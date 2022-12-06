@@ -29,10 +29,11 @@
 
 function addUp(num) { 
     let array = []
-	  let sum = 0
+	let sum = 0
+    let addNext = array[i]
   for(i=0; i < num; i++){
-        array[i] = i + 1
-        sum = array[i] + sum
+        addNext = i + 1
+        sum = addNext + sum
 	}
 	return sum
 }
